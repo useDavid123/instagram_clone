@@ -1,0 +1,50 @@
+.post {
+  max-width: 500px;
+  background-color: #fff;
+  border: solid 1px lightgrey;
+  margin-bottom: 45px;
+}
+
+.post_image {
+  width: 100%;
+  /* object-fit: contain; */
+  border-bottom: solid 1px lightgrey;
+  border-top: solid 1px lightgrey;
+  height: 250px;
+}
+
+.post_text {
+  font-weight: normal;
+  padding: 20px;
+}
+
+.post_header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.post_avatar {
+  margin-right: 10px;
+}
+.post_commentbox {
+  display: flex;
+  margin-top: 20px;
+}
+
+.post_commentinput {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  border-top: 1px solid lightgray;
+}
+
+.post_commentbutton {
+  border-top: 1px solid lightgray;
+  background-color: transparent;
+  color: #6882a3;
+  flex: 0;
+}
+
+.post_comments {
+  padding: 20px;
+}
